@@ -3,13 +3,13 @@ var arr = [
         "Name": "Momos",
         "Price": "150",
         "Category": "Fast Food",
-        "Path": "images/momos.jpeg"
+        "Path": "momos.jpeg"
     },
     {
         "Name": "Chowmine",
         "Price": "220",
         "Category": "Fast Food",
-        "Path": "images/chowmine.jpeg"
+        "Path": "chowmine.jpeg"
     },
     {
         "Name": "Burger",
@@ -79,4 +79,5 @@ function displayItems(items) {
 
         holder.append(card);
     });
+
 }
