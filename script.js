@@ -3,13 +3,13 @@ var arr = [
         "Name": "Momos",
         "Price": "150",
         "Category": "Fast Food",
-        "Path": "momos.jpeg"
+        "Path": "/momos.jpeg"
     },
     {
         "Name": "Chowmine",
         "Price": "220",
         "Category": "Fast Food",
-        "Path": "chowmine.jpeg"
+        "Path": "/chowmine.jpeg"
     },
     {
         "Name": "Burger",
@@ -33,13 +33,13 @@ var arr = [
         "Name": "Juice",
         "Price": "80",
         "Category": "Beverages",
-        "Path": "images/juicesg.jpeg"
+        "Path": "/juicesg.jpeg"
     },
     {
         "Name": "Cold Drink",
         "Price": "150",
         "Category": "Beverages",
-        "Path": "images/cold drink.jpeg"
+        "Path": "/cold drink.jpeg"
     }
 ];
 var categories = [...new Set(arr.map(item => item.Category))];
@@ -81,3 +81,4 @@ function displayItems(items) {
     });
 
 }
+
